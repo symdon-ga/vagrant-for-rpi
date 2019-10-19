@@ -1,0 +1,10 @@
+#+TITLE: Vagrant for RPI cross compilation
+
+** Dependencies
+
+#+BEGIN_SRC
+brew cask install virtualbox
+brew cask install vagrant
+brew cask install vagrant-manager
+vagrant plugin install vagrant-vbguest
+#+END_SRC
